@@ -1,0 +1,29 @@
+body {
+    background-image: url("../images/cartoons-digital-image-of-spongebob-6rq89z9cbzxtiaoa.jpg");
+    width: 10%;
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.game-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400vh;
+    background-color: #339900; /* Vervang dit door de gewenste achtergrondkleur */
+}
+button {
+    width: 300px;
+    height: 60px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: 'CustomFont', Arial, sans-serif;
+    transition: box-shadow 0.3s;
+    font-size: 20px;
+}
